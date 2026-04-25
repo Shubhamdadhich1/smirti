@@ -33,6 +33,13 @@ If a dose is missed after multiple attempts, caregivers receive an instant SMS a
 
 ---
 
+## Demo Notes / Limitations
+
+- Due to Twilio trial restrictions, OTP and calling features work only with verified phone numbers.
+- Backend is currently running in a local/development environment (not fully deployed).
+- Calling feature is partially implemented and under improvement.
+- This project currently demonstrates the core flow and frontend logic.
+
 ## 📂 Project Structure
 
 This project is a monorepo consisting of a separate frontend and backend.
@@ -105,6 +112,13 @@ npm run dev
 The frontend will be available at `http://localhost:5173`.
 
 ---
+## Future Improvements
+
+- Full authentication system with database integration
+- Deploy backend on cloud (Render/AWS)
+- Improve call reliability and retry logic
+- Add user account system for caregivers
+- Enhance UI/UX for elderly accessibility
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
