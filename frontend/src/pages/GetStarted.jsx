@@ -28,7 +28,7 @@ export default function GetStarted() {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:3000/schedule', {
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/schedule`, {
         parentName: formData.parentName,
         parentPhone: formData.parentPhone,
         medicine: formData.medicine,
