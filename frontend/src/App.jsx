@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import GetStarted from './GetStarted';
-import Dashboard from './Dashboard';
+import Home from './pages/Home';
+import GetStarted from './pages/GetStarted';
+import Dashboard from './pages/Dashboard';
 
 export default function App() {
   return (
